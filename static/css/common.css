@@ -1,0 +1,80 @@
+.wrap:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.masthead{
+	background: none repeat scroll 0 0 #000000;
+    border-bottom: 4px solid #F8D575;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+    color: #CCCCCC;
+    min-height: 33px;
+    height:33px;
+}
+.masthead .wrap{
+	width:960px;
+	margin:0 auto;
+	line-height:33px;
+	position:relative;
+	color:#666;
+}
+.masthead .wrap .action{
+	position:absolute;
+	right:0px;
+	top:0px;
+}
+.masthead .wrap .action span{
+	padding:0 4px;
+}
+.masthead .wrap .action a:link,
+.masthead .wrap .action a:visited{
+	color:#fff;
+}
+.welcome-bar{
+	background: url("../images/bg-thinstripe-lt.png") repeat scroll 0 0 #000000;
+    border-bottom: 4px solid #F8D575;
+    border-top: 4px solid #333333;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+    color: #CCCCCC;
+    margin-top: -4px;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.75);
+    overflow:hidden;
+}
+.welcome-bar .wrap{
+	margin:0 auto;
+	padding: 25px 160px;
+    width: 620px;
+    overflow:hidden;
+    position:relative;
+}
+.welcome-bar .wrap .close,
+.welcome-bar .wrap a.close:link,
+.welcome-bar .wrap a.close:visited{
+	display:block;
+	width:28px;
+	height:28px;
+	background:url(../images/icons-welcome.png) no-repeat 0px -550px;
+	overflow:hidden;
+	position:absolute;
+	top:15px;
+	right:25px;
+}
+.welcome-bar .wrap a.close:hover{
+	background-position:0px -600px;
+}
+.welcome-bar .wrap a.close span{
+	display:none;
+}
+.welcome-bar .wrap h1{
+	color: #F8D475;
+    font: 42px/1 "Museo Sans",sans-serif;
+    margin: 0 0 0.3em;
+    text-align: center;
+}
+.welcome-bar .wrap h1 b {
+    color: #CC3435;
+    font-weight: normal;
+｝
+

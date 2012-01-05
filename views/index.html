@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>爱读书</title>
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/common.css">
+		<link rel="stylesheet" href="css/index.css">
+		<script style="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+	</head>
+	<base target="_blank"/>
+	<body>
+		<div class="doc">
+			<header class="masthead">
+				<div class="wrap">
+					<p class="action"><a href="#" target="_self">登录</a><span>|</span><a href="#">成为爱读书一份子</a></p>
+				</div>
+			</header>
+			<header class="welcome-bar" id="welcome-bar">
+				<div class="wrap">
+					<h1>It's the Web. <b>You drive.</b></h1>
+					<h2>欢迎来到爱读书社群。</h2>
+					<p>我们是个来打造更棒的网络所需的资源开放开发者社群，不論品牌或使用者使用哪個平台與瀏覽器。任何人都可以加入貢獻，每個人所做的事都可以讓我們更強大，我們可以一起持續功用的讓網路有更大的功用。我們從此，與您一起開始。</p>
+					<a class="close" target="_self" href="#"><span>关闭2</span></a>
+				</div>
+			</header>
+			<div class="content">
+				content
+			</div>
+			<footer>
+				footer
+			</footer>
+		</div>
+		<script>
+			jQuery(function($){
+				$('#welcome-bar a.close').click(function(e){
+					e.preventDefault();
+					$('#welcome-bar').animate({height:'0'});
+				});
+			});
+		</script>
+	</body>
+</html>
+
+
