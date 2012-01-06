@@ -1,6 +1,9 @@
 body {
-  background: url("../images/bg_hd.gif") repeat-x scroll 0 0 transparent;
-  font-family: "Microsoft Yahei", "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", STHeiti !important;
+	background: url("../images/body_bg.jpg") repeat-x scroll left top #3C3C94;
+  	font-family: "Microsoft Yahei", "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", STHeiti !important;
+}
+.hidden{
+	display:none;
 }
 .wrap:after {
     clear: both;
@@ -9,45 +12,114 @@ body {
     height: 0;
     visibility: hidden;
 }
-.masthead{
-    border-bottom: 1px solid #F8D575;
+.toolbar{
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
     color: #CCCCCC;
-    min-height: 33px;
-    height:33px;
+    min-height: 24px;
+    line-height:26px;
+    height:27px;
+    background-color:#003366;
+}
+.toolbar .wrap{
+	width:960px;
+	margin:0 auto;
+	position:relative;
+	color:#fff;
+}
+.toolbar .top-nav-menu{
+	float:left;
+}
+.toolbar .top-nav-menu ul li{
+	display:block;
+	float:left;
+}
+.toolbar .top-nav-menu ul li a{
+	display:block;
+	color:#fff;
+	margin:0 6px;
+	padding:0 4px;
+	line-height:21px;
+	margin-top:3px;
+}
+.toolbar .top-nav-menu ul li a:hover{
+	background-color: #2A85E8;
+    border-radius: 3px 3px 3px 3px;
+    text-decoration:none;
+}
+.toolbar .top-nav-info{
+	float:right;
+	width:340px;
+}
+.toolbar .top-nav-info em{
+	color:#7BABDA;
+	padding:0 2px;
+	font-family:Georgia,Helvetica,Arial;
+}
+
+.masthead{
+	height:64px;
+	margin:8px 0px;
 }
 .masthead .wrap{
 	width:960px;
 	margin:0 auto;
-	line-height:33px;
 	position:relative;
-	color:#666;
+	color:#fff;
 }
-.masthead .topmenu{
+.masthead .logo{
+	float:left;
+	width:320px;
+}
+.masthead .logo a{
+	display:block;
+	width:156px;
+	height:56px;
+	padding:4px;
+}
+.masthead .logo a:hover{
+    border-radius: 3px 3px 3px 3px;
+    border:1px solid #fff;
+    margin:-1px;
+}
+.masthead .logo figcaption{
+	display:none;
+}
+.masthead .search{
+	width:370px;
 	float:right;
-	width:180px;
+	margin-top:24px;
 }
-.masthead .topmenu li{
-	float: left;
-	display: block;
-	position: relative;
-	padding: 0;
-	margin: 0;
-	line-height: 29px;
+.masthead .search .search-input-container{
+	width:270px;
+	float:left;
+	background: url("../images/bg1.png") no-repeat scroll 0 0 transparent;
+	height:29px;
+	border-radius: 2px 2px 2px 2px;
+}
+.masthead .search .search-input{
+	height:24px;
+	line-height:17px;
 	padding-top:2px;
+	margin-top:2px;
+	width:265px;
+	background:none;
+    border: 0 none;
+    padding-left:4px;
 }
-.masthead .topmenu a{
-	font-size: 13px;
-	padding: 0 10px;
-	display: block;
-	text-decoration: none;
-	color: #DDD;
+.masthead .search .search-button-container{
+	float:left;
 }
-.masthead .topmenu a:hover{
-	background-color: #99A;
-	border-radius: 3px 3px 3px 3px;
+.masthead .search .search-button-container button{
+	background: url("../images/icon2.png") no-repeat scroll 0 0 transparent;
+    border: 0 none;
+    color: #FFFFFF;
+    font-weight: bold;
+    height: 29px;
+    line-height: 29px;
+    margin-left: 4px;
+    outline: 0 none;
+    width: 78px;
 }
-
 .pagefooter{
 	border-top:2px solid #EEE;
 	height:300px;
